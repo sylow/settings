@@ -52,5 +52,5 @@ GlobalConfiguration[:email]
 String
 ---
 
-Added a method to String class to convre
+Added a method to String class to convert to boolean
 
