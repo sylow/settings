@@ -35,7 +35,7 @@ Set a value(you can set Integer, Float, true/false, string)
 ```sh
 GlobalConfiguration[:age] = 22
 
-GlobalConfiguration[:email] = 'john@example.com
+GlobalConfiguration[:email] = 'john@example.com'
 ```
 
 
