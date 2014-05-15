@@ -62,6 +62,7 @@ class GlobalConfiguration < ActiveRecord::Base
       value.send(to_kind(kind))      
     end
     
+    # Handles data conversion from string to ...
     def to_kind(klass)
       if klass == 'Fixnum'
         :to_i

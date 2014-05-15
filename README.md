@@ -5,6 +5,8 @@ GlobalConfiguration is ActiveModel based cached settings management.
 
 Database creation
 ---
+Create your database.yml first and set your db configurations
+
 
 You will need to create db table using 
 
@@ -12,7 +14,7 @@ You will need to create db table using
 rake db:create && rake db:migrate 
 ```
 
-Gemfile is using sqlite gem. Change it to reflect what db you want to use
+Gemfile is using sqlite gem. Change it to reflect what db you want to use.
 
 
 How to run the test suite
@@ -25,7 +27,7 @@ guard
 ```
 
 
-How to use
+Usage
 ---
 
 Simple usage is
@@ -46,3 +48,9 @@ GlobalConfiguration[:age]
 
 GlobalConfiguration[:email]
 ```
+
+String
+---
+
+Added a method to String class to convre
+
